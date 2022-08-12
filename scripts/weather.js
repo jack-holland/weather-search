@@ -42,7 +42,7 @@ $("form").submit(function (e) {
                                 <h5 class="card-title">`+ locationName + `</h5>
                             </div>
                             <div class="col-sm-6 d-flex justify-content-end">
-                                <p class="card-text small">` + dayNames[date.getDay()] + ` ` + date.getDay() + ` ` + monthNames[date.getMonth()] + ` ` + date.getFullYear() + `</p>
+                                <p class="card-text small">` + dayNames[date.getDay()] + ` ` + date.getDate() + ` ` + monthNames[date.getMonth()] + ` ` + date.getFullYear() + `</p>
                             </div>
                         </div>
                 
